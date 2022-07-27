@@ -20,6 +20,7 @@ h2 {
     background-color: #E6E6E6;
     padding: 5px;
     height: 100%;
+    border-radius: 20px;
 }
 
 .header {
@@ -29,6 +30,7 @@ h2 {
     height: 25%;
     margin-bottom: 3em;
     background-color: #CED8F6;
+    border-radius: 20px;
 }
 
 ul  {
@@ -44,7 +46,7 @@ li a {
     text-decoration: none;
     font-family: 'Noto Serif JP', serif;
     font-size: 1.5rem;
-    color: #848484;
+    color: #00008B;
     font-weight: 800;
 }
 
@@ -111,4 +113,68 @@ h1 {
 .footer {
     background-color: #5882FA;
     flex: 0 0 auto;
+}
+
+.textnav:hover {
+    color: black;
+
+}
+.header {
+    border-radius: 20px;
+    height: 75px;
+    
+
+   }
+   .flex-container{
+    border-radius: 20px;
+    background-color: white;
+   
+   }
+   li a{
+ 
+ color: #00008B;
+}
+   
+   a:hover{
+    color: #0000FF;
+    transition: 0.3s ease-in-out color;
+   }
+   h1{
+    margin-top: 0;
+    font-size: 40px;
+   }
+   .logo{
+   padding-top: 5px;
+    align-items: center;
+   }
+   p{
+    font-size: 25px;
+   }
+   .myImg{
+    align-items: center;
+    margin-top: 0;
+    padding-left: 80px;
+   }
+   nav {
+    margin-right: 100px;
+   }
+   .footer {
+    border-radius: 20px;
+    background-color: black;
+    
+   }
+   .data {
+    margin-bottom: 100px;
+   }
+   h2 {
+    color: white;
+    font-size: 27px;
+   }
+.knowledge{
+    font-size: 25px;
+    background-color: #DCDCDC;
+    border-radius: 20px;
+}
+.text{
+    font-size: 20px;
 }
